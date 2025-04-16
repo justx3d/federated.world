@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Welcome to federated.world</title>
+  <style>
+    body {
+      background-color: black;
+      color: lime;
+      font-family: Courier, monospace;
+      text-align: center;
+    }
+    h1 {
+      color: red;
+      text-shadow: 0 0 5px white;
+    }
+    blink {
+      animation: blink-animation 1s steps(2, start) infinite;
+      -webkit-animation: blink-animation 1s steps(2, start) infinite;
+    }
+    @keyframes blink-animation {
+      to {
+        visibility: hidden;
+      }
+    }
+    a {
+      color: cyan;
+      text-decoration: none;
+    }
+    a:hover {
+      color: yellow;
+    }
+    .terminal-links {
+      margin-top: 40px;
+    }
+    .terminal-links a {
+      display: block;
+      margin: 10px 0;
+      font-size: 20px;
+    }
+    .footer {
+      margin-top: 50px;
+      font-size: 12px;
+      color: gray;
+    }
+  </style>
+</head>
+<body>
+  <h1><blink>⚠ YOU ARE BEING WATCHED ⚠</blink></h1>
+  <h2>Welcome to <span style="color: magenta">federated.world</span></h2>
+  <p><i>"They want your data. However, privacy is non-negogiable."</i> - X3D</p>
+
+  <div class="terminal-links">
+    <a href="about.html">> Who is X3D?</a>
+    <a href="manifesto.html">> Read The Manifesto</a>
+    <a href="toolkit.html">> Digital Privacy Toolkit</a>
+    <a href="byemail.html">> Our Email Service | 5€ / Month</a>
+  </div>
+
+  <marquee behavior="scroll" direction="left" scrollamount="6" style="color: red; font-weight: bold; margin-top: 40px;">
+    PRIVACY IS NOT A CRIME — SURVEILLANCE IS THE ENEMY — DO NOT BOW TO GOVERNMENTS - RESIST RESIST RESIST
+  </marquee>
+
+  <div class="footer">
+    <p>Last update: April 2025</p>
+    <p>No cookies. No scripts. No surveillance.</p>
+  </div>
+</body>
+</html>
